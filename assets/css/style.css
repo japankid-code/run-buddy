@@ -179,7 +179,7 @@ section {
 .steps span {
     font-size: 38px;
 }
-
+/* trainer style start */
 .trainers {
     text-align: center;
 }
@@ -218,11 +218,39 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
+/* trainer style end */
 .text-left {
     text-align: left;
 }
 
 .text-right {
     text-align: right;
+}
+/* reach out styles start */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact h3 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.contact-info {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 30px 0 0 60px;
+    color: #ffffff;
 }
