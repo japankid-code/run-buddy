@@ -74,18 +74,17 @@ footer a {
 
 section {
     padding: 60px;
-    
 }
 
 /* here stylin start :) */
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative; /* lets the hero-form use
-    this element to position from instead of body */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-form {
@@ -95,9 +94,6 @@ section {
     margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;;
 }
 
 .hero-form h3 {
