@@ -58,6 +58,22 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+  
+.hero-form button:hover {
+    background-color: #39a6b2;  
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+}
+
 footer {
     background: #fce138;
     width: 100%;
@@ -119,6 +135,7 @@ section {
 }
 
 .form-input {
+    background-color: #ffffffb0;
     border-radius: 10px;
     border: 1px solid #024e76;
     display: block;
@@ -127,6 +144,11 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+}
+
+.form-input:focus {
+    background-color: #ffffffff;
+    outline: none;
 }
 
 .hero form label {
@@ -194,12 +216,16 @@ section {
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%;
     border-bottom: 1px solid #39a6b2;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.step:last-child {
+    border-bottom: none;
 }
 
 .step h3 {
@@ -239,6 +265,8 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
+
+
 /* steps end */
 /* trainer style start */
 .trainers {
@@ -330,6 +358,18 @@ section {
 .contact-info a {
     color: #fce138;
 }
+
+.contact-form textarea,
+.contact-form input {
+    background-color: #ffffffb0;
+}
+
+.contact-form textarea:focus,
+.contact-form input:focus {
+    background-color: #ffffffff;
+}
+
+/* reach out styles end */
 
 .text-left {
     text-align: left;
